@@ -1,0 +1,28 @@
+{
+  "name": "bitburner",
+  "version": "1.0.0",
+  "description": "các script bitburner trong quá trình chơi game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./config.mjs"
+  },
+  "author": "Mizuhara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shyguy1412/bb-external-editor/issues"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.4",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "^0.23.1",
+    "esbuild-bitburner-plugin": "^1.7.9"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.0",
+    "eslint": "^9.39.0",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
+    "prettier": "3.6.2",
+    "typescript-eslint": "^8.46.2"
+  }
+}
